@@ -55,6 +55,8 @@ http://www.hostbuf.com/downloads/finalshell_install.pkg
  本脚本建议在Debian≥9或是CentOS≥8以上的系统中使用
  
     wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+    
+    安装过后先选2，重启后选7
  
  ## 一键安装面板
     bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
@@ -86,3 +88,9 @@ http://www.hostbuf.com/downloads/finalshell_install.pkg
 
  ----------------
 这种 Xray 可视化管理面板 的方式，也是支持伪装网站以及多网站并存的，包括支持宝塔面板的搭建方式。
+
+
+https://www.youtube.com/watch?v=AHnoF5FyFy8&list=LL&index=21&t=1132s  视频教程
+
+修改必要的面板参数 SSL证书以及密钥（绝对地址）、面板端口、登录标题 等，其他若是你不清楚，请保持默认教程
+修改必要的面板参数 SSL证书以及密钥（绝对地址）、面板端口、登录标题 等，其他若是你不清楚，请保持默认
